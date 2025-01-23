@@ -1,0 +1,41 @@
+h1 {
+    color: #003263;
+}
+
+.tab-list {
+    margin: 0; padding: 0;
+}
+
+.tab-list li {
+    background-color: #003263;
+    display: inline-block;
+    list-style-type: none;
+/* margin: 0; padding: 0 */
+}
+
+.tab-list li a {
+    color: #B1D7FF;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.tab-list li.active a, .tab-list li a:hover {
+    background-color: #B1D7FF;
+    color: #003263;
+    text-decoration: none;
+}
+
+.tab-panel {
+    background-color: #B1D7FF;
+    color: #003263;
+    display: none;
+    max-width: 500px;
+    min-height: 200px;
+    overflow: auto;
+    padding-left: 10px; 
+}
+
+.tab-panel.active {
+    display:block;
+}

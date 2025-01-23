@@ -1,0 +1,15 @@
+{
+
+"images": [
+    {
+        "image": "data/dog.jpeg",
+        "description": "PUG IN A BLANKET"
+    },
+
+    {
+        "image": "data/dog2.jpeg",
+        "description": "PUG IN ANOTHER BLANKET"
+    }
+]
+    
+}
